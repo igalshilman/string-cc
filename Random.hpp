@@ -19,7 +19,6 @@ class Random
       x ^= x << 23;
       s1 = x ^ y ^ (x >> 17) ^ (y >> 26);
       return s1 + y;
-
     }
 
   private:
